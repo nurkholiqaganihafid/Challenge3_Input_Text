@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Challenge3_Input_Text">
         <activity
+            android:name=".OutputBiodataActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
